@@ -7,15 +7,15 @@ type Mutation struct {
 
 type Order struct {
 	ID         string  `json:"id"`
-	Price      float64 `json:"price"`
-	Tax        float64 `json:"tax"`
-	FinalPrice float64 `json:"finalPrice"`
+	Price      float64 `json:"Price"`
+	Tax        float64 `json:"Tax"`
+	FinalPrice float64 `json:"FinalPrice"`
 }
 
 type OrderInput struct {
 	ID    string  `json:"id"`
-	Price float64 `json:"price"`
-	Tax   float64 `json:"tax"`
+	Price float64 `json:"Price"`
+	Tax   float64 `json:"Tax"`
 }
 
 type Query struct {
